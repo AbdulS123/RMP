@@ -4,7 +4,7 @@
    const profs = {
     tt0120611: {
        ProfName: `Steineder Christian`,
-       ProfImage: `Images/`,
+       ProfImage: `images/prof1.jpg`,
        ProfSubject: `Mathe`,
        ProfComment: [`ist ganz gut`, `ist der beste`,`mag seine beschreibungen nicht`, `verlangt zu viel`],
        ProfRatingCollection: [3, 4, 4,7],
