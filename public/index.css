@@ -1,11 +1,43 @@
-/* public/styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+/* CSS to style the container and its elements */
+:root {
+    --profRatingResult: 0%; /* Default font size */
 }
+.upMostOuterClass {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .divClass {
+    margin: 0 10px;
+  }
+  
+  #imgId {
+    width: 10vw;
+    height: 15vh;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+  }
 
-h1 {
-    color: #333;
-}
+  
+   #nameId, #subjectId, #commentId {
+    margin: 2px;
+    font-size: 2rem;
+  }
+  #ratingId{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+
+  }
